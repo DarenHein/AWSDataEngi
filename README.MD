@@ -1,4 +1,4 @@
-## Certificacion AWS Data Engineer 
+## AWS Certified Data Engineer - Associate (DEA-C01)
 
 ### puntos claves de la certificacion 
 

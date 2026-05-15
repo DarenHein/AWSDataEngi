@@ -1,0 +1,17 @@
+
+DOMINIO 1 
+
+** ingestion y transformacion de datos ---------(%34 de la evaluacion)
+
+DOMINIO 2 
+
+** Gestion de almacenes de datos ---------------(%26 de la evaluacion)
+
+DOMINIO 3 
+
+** Operacion y soporte de datos ----------------(%22 de la evaluacion)
+
+DOMINIO 4 
+
+** seguridad y governanza de los datos ---------(%18 de la evaluacion)
+
