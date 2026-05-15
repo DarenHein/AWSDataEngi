@@ -1,6 +1,6 @@
-### Certificacion AWS Data Engineer 
+## Certificacion AWS Data Engineer 
 
-## puntos claves de la certificacion 
+### puntos claves de la certificacion 
 
 nombre : AWS Certified Data Engineer Associate 
 
@@ -11,6 +11,7 @@ de datos en AWS
 almacenamiento , procesamiento y analisis de datos 
 
 ** 3 uso de Servicios : 
+
 	* Amazon S3 
 	* AWs Glue 
 	* Amazon Redshift 
