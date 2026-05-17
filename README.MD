@@ -25,6 +25,7 @@ almacenamiento , procesamiento y analisis de datos
 AWS , incluyendo : 
 	
 	* Data Lakes 
+	* DATA WHERE HOUSE 
 	* pipelines 
 	* ETL/ELT
 	* procesamiento batch y streming 
