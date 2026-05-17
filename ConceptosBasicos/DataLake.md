@@ -1,9 +1,13 @@
 
+``` markdown
+<pre>
  ____        _              _          _        
 |  _ \  __ _| |_ __ _      | |    __ _| | _____ 
 | | | |/ _` | __/ _` |_____| |   / _` | |/ / _ \
 | |_| | (_| | || (_| |_____| |__| (_| |   <  __/
 |____/ \__,_|\__\__,_|     |_____\__,_|_|\_\___|
+
+</pre>
                                                 
 Un dataLake es un repositorio centralizado de almacenamiento masivo , diseñado para albergar grandes volumenes de datos en su **formato nativo** 
 
