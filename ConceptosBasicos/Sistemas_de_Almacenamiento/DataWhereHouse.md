@@ -31,3 +31,7 @@ UN DWH O ALMACEN DE DATOS es lo contratio a un data lake mientras que en el data
 
 es una base de datos masiva que utiliza la tecnologia **almacenamiento columnar**
 (guarda los datos en columnas en lugar de filas)
+
+## SCHEMA-ON-WRITE 
+
+Antes de que el dato entre debe de tener un schema definido osea tablas filas y columnas 

@@ -23,4 +23,6 @@ Un dataLake es un repositorio centralizado de almacenamiento masivo , diseñado 
 
 en un data lake primero se almacena y despues de categoriza (por un ing de datos)
 
+" primero almaceno , depues averiguo la estructura " 
+
 ## EL REY DE LOS DATA LAKES EN AWS ES **AWS S3**
