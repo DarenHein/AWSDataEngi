@@ -23,13 +23,14 @@ funcionan bajo el imperio del __SCHEMA-ON-WRITE__
 las bases de datos relacionales mayormanete. se ocupan cunado nuestro schema es fijo y nunca se cambiara 
 
 __EJEMPLO__ : 
-|---------------------------|
-| llave  |       Valor      |
-|---------------------------|
-|mascora | {                | 
-|        |   nombre : Laika |
-|        |  }               |
-|---------------------------|
+
+|-------------------------------|
+|  Llave    |  Valor            |
+|-------------------------------|
+|  mascota  |  {                | 
+|           |    nombre: Laika  |
+|           |  }                |
+|-------------------------------|
 
 ## Recurda no podemos leer el json la base de datos lo toma como texto plano no como formato json o bson 
 
@@ -84,19 +85,20 @@ __Elementos Fundamentales__
 __NODOS__ (nodes) : son los circulos del mapa que representan las cosas o entendades 
 
 ejemplo  : 
- nodo                           nodo
-   |                              |
-   v                              v
-[kevin] ----- es amigo de ---- [Luis]
+(Nodo)                 [Borde / Relación]                (Nodo)
+ [Kevin] ─────────────────── ES_AMIGO_DE ──────────────────> [Luis]
+ [Kevin] ───────────────── TIENE_LA_CONSOLA ───────────────> [PS5]
+  [Luis] ────────────────────── JUEGA ─────────────────────> [Silent Hill]
 
 __Bordes__ o Relaciones (edges/Relationships) : son las lineas o flechas que unen a los __nodos__
 esto es lo mas importante de un grafo ya que que el __borde__ es quien marca la relacion o como se relacionan ambos __nodos__ que une 
 
 ejemplo  : 
-                borde
-                  |                              
-                  v                   
-[kevin] ----- es amigo de ---- [Luis]
+
+  (Nodo)                 [Borde / Relación]                (Nodo)
+ [Kevin] ─────────────────── ES_AMIGO_DE ──────────────────> [Luis]
+ [Kevin] ───────────────── TIENE_LA_CONSOLA ───────────────> [PS5]
+  [Luis] ────────────────────── JUEGA ─────────────────────> [Silent Hill]
 
 -------------------------------------------------
 
