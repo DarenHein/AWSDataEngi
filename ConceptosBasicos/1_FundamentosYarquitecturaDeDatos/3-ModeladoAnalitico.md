@@ -13,7 +13,7 @@ ANTES DE VER LOS ESQUEMAS DEBEMOS COMPRENDER DOS CONCEPTOS :
 
 NOTA MENTAL : EL MODELADO ANALITICO ES COMO QUEDARAN EL DISEÑO O PLANOS DE LAS TABLAS EN EL OLAP 
 
-## Tablas de hechos 
+## TABLAS DE HECHOS 
 
 son tablas que guardan historial numerico cuantificable resultado de un evento 
 es la tabla que guarda cuando : __"pasa algo en la empresa"__ 
@@ -55,7 +55,7 @@ si las tablas de hechos guardan el historical numerico las __tablas de dimencion
 
 responde estas preguntas : quien ?? , que ?? , donde ?? , y cuando ?? 
 
-# DE QUE SE COMPONE UNA TABLA DE DIMENCIONES 
+## DE QUE SE COMPONE UNA TABLA DE DIMENCIONES 
 
 literial es un catalogo de infomacion descriptiva se compone de dos cosas 
 
@@ -70,4 +70,14 @@ aqui es donde va todo el texto descriptivo del negocio son , palabras , textos o
 tablas de hechos : cortas en su shcema pero con millones de datos 
 tablas de dimenciones : largas en su schema pero con pocos datos 
 
-![Ejemplo]("IMG/IMG.png")
+![Ejemplo](../IMG/IMG.png)
+
+## MODELADO ANALITICO 
+
+si seguimos tomando en cuenta que un modelado analitico es __la arquitectura__ o sieño que tendran las tablas en un mundo __OLAP__ hay dos grandes diseños __estrella__ y __copo de nieve__ 
+
+### MODELADO DE ESTRELLA : 
+
+es el mas sencillo las tablas de hechos estan al centro y las tablas de dimenciones en las esquinas haciendo indicacion a su nombre una estrella 
+
+__Ejemplo__ 
